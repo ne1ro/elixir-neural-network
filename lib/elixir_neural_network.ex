@@ -1,0 +1,2 @@
+defmodule ElixirNeuralNetwork do
+end
