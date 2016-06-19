@@ -3,5 +3,5 @@ defmodule ElixirNeuralNetwork.Layer do
     Layer of neurons struct
   """
 
-  defstruct neurons: []
+  defstruct neurons: [], pid: nil
 end

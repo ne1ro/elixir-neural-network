@@ -3,5 +3,5 @@ defmodule ElixirNeuralNetwork.Neuron do
     Single neuron struct
   """
 
-  defstruct input: 0, output: 0, incoming: [], outgoing: []
+  defstruct input: 0, output: 0, incoming: [], outgoing: [], pid: nil
 end
