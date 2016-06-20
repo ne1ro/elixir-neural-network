@@ -1,6 +1,6 @@
-defmodule ElixirNeuralNetwork.Perceptron do
+defmodule ElixirNeuralNetwork.Connection do
   @moduledoc """
-    Single perceptron
+    Neurons connection
   """
 
   defstruct source: %{}, target: %{}, weight: 0.5, pid: nil
